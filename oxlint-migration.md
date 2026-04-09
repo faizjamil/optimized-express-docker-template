@@ -1,16 +1,13 @@
+✨ .oxlintrc.json created with 164 rules.
 
-✨ .oxlintrc.json created with 162 rules.
-
-   Skipped 37 rules:
-     - 16 Not Implemented
+   Skipped 35 rules:
+     - 14 Not Implemented
        - no-implied-eval
        - no-restricted-properties
        - prefer-regex-literals
        - no-unreachable-loop
        - no-restricted-syntax
        - one-var
-       - no-restricted-exports
-       - object-shorthand
        - import/no-extraneous-dependencies
        - import/newline-after-import
        - import/no-useless-path-segments
@@ -45,3 +42,10 @@
 🚀 Next:
      npx oxlint .
 
+⚠️  Warnings (2):
+   * Settings not migrated (not supported by oxlint):
+     * `import/resolver`
+     * `import/extensions`
+     * `import/core-modules`
+     * `import/ignore`
+   * special parser detected: @babel/eslint-parser

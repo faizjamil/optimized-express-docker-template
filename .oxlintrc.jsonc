@@ -156,6 +156,15 @@
       }
     ],
     "no-regex-spaces": "error",
+    "no-restricted-exports": [
+      2,
+      {
+        "restrictedNamedExports": [
+          "default",
+          "then"
+        ]
+      }
+    ],
     "no-restricted-globals": [
       "error",
       {
@@ -281,6 +290,14 @@
     "no-void": "error",
     "node/global-require": "error",
     "node/no-new-require": "error",
+    "object-shorthand": [
+      2,
+      "always",
+      {
+        "ignoreConstructors": false,
+        "avoidQuotes": true
+      }
+    ],
     "operator-assignment": [
       "error",
       "always"
@@ -389,15 +406,7 @@
     // "no-implied-eval": [
     //   2
     // ],
-    // "no-restricted-exports": [
-    //   2,
-    //   {
-    //     "restrictedNamedExports": [
-    //       "default",
-    //       "then"
-    //     ]
-    //   }
-    // ],
+    
     // "no-restricted-properties": [
     //   2,
     //   {
@@ -480,14 +489,7 @@
     //   2,
     //   "^(err|error)$"
     // ],
-    // "object-shorthand": [
-    //   2,
-    //   "always",
-    //   {
-    //     "ignoreConstructors": false,
-    //     "avoidQuotes": true
-    //   }
-    // ],
+    
     // "one-var": [
     //   2,
     //   {
