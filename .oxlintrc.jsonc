@@ -483,12 +483,7 @@
     //     "ignore": []
     //   }
     // ],
-    // "node/no-deprecated-api": "error",
     // "node/no-path-concat": "error"
-    // "node/handle-callback-err: [
-    //   2,
-    //   "^(err|error)$"
-    // ],
     
     // "one-var": [
     //   2,
